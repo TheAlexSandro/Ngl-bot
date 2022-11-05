@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "properties-reader": "^2.2.0",
+    "telegraf": "^4.10.0"
+  }
+}
