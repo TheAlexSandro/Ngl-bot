@@ -504,6 +504,5 @@ bot.on('callback_query', async (ctx) => {
     }
 })
 
-/*bot.catch((e, ctx) => bot.telegram.sendMessage(ctx.chat.id, e.message))
-bot.launch()*/
-getUserOnData()
+bot.catch((e, ctx) => bot.telegram.sendMessage(ctx.chat.id, e.message))
+bot.launch()
