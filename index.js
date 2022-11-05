@@ -59,7 +59,6 @@ function cbGetName(ctx) {
 // MULAI - PENDETEKSIAN PESAN
 bot.on('message', async (ctx) => {
     var chatID = ctx.message.chat.id;
-    var acc = await dts.connect()
     var getLang = save.get('bahasa_' + chatID)
     var langID = save.get('lang_id_' + chatID)
     var langEN = save.get('lang_en_' + chatID)
