@@ -4,7 +4,6 @@ const db = propertiesReader('./path/to/properties.file');
 const save = propertiesReader('./path/to/properties.file', {writer: { saveSections: true }});
 const token = "5781490655:AAEZJQajUsyv3xYHFTXk-giXoTI0KKAb1-E"
 const bot = new Telegraf(token, { polling: true });
-const { GoogleSpreadsheet } = require('google-spreadsheet');
 
 // DATA BOT
 const adminBot = 1434949478
